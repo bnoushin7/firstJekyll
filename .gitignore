@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+idea/
+.idea/
+.idea/*
+.idea/.gitignore
+.idea/cpc_jekyll.iml
+.idea/misc.xml
+.idea/modules.xml
