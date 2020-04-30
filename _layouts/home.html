@@ -32,16 +32,16 @@
     </div>
 </div>
 
-<div class="trigger"><a class="page-link" href="/about/">About?</a></div>
+<!-- <div class="trigger"><a class="page-link" href="/about/">About?</a></div> -->
 
 <main role="main" class="container">
     <h1>AOES Catalog</h1>
     This website hosts on <a href="https://github.com/bnoushin7/COLA-DATASETS-CATALOG/tree/noushin_0421">Github</a>:
     <br><br>
     <pre><code class="language-python">from intake import open_catalog<br>
-cat = open_catalog("https://github.com/bnoushin7/COLA-DATASETS-CATALOG/blob/noushin_0421/cpc-global-tmax.yaml")
+cat = open_catalog("https://github.com/bnoushin7/COLA-DATASETS-CATALOG/blob/noushin_0421/master.yaml")
 list(cat)</code></pre><br>
-    Most of the datasets available are stored in cloud-friendly formats like <a href="https://zarr.readthedocs.io/">zarr</a> and are meant to be opened with <a href="http://xarray.pydata.org/">xarray</a>. Though there is no standard catalog format, our catalogs currently rely upon <a href="https://intake.readthedocs.io/">Intake</a> and <a href="https://github.com/NCAR/intake-esm">Intake-esm</a>.
+    Most of the datasets available are meant to be opened with <a href="http://xarray.pydata.org/">xarray</a>. Though there is no standard catalog format, our catalogs currently rely upon <a href="https://intake.readthedocs.io/">Intake</a> and <a href="https://github.com/intake/intake-xarray">Intake-xarray</a>.
     <br><br>
     <a href="master">Browse the master catalog</a>
 </main>
